@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A74099C71ED5232000817602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099C61ED5232000817602 /* main.m */; };
+		A74099CA1ED5232100817602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099C91ED5232100817602 /* AppDelegate.m */; };
+		A74099CD1ED5232100817602 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099CC1ED5232100817602 /* ViewController.m */; };
+		A74099D01ED5232200817602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74099CE1ED5232200817602 /* Main.storyboard */; };
+		A74099D21ED5232200817602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74099D11ED5232200817602 /* Assets.xcassets */; };
+		A74099D51ED5232200817602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74099D31ED5232200817602 /* LaunchScreen.storyboard */; };
+		A74099E01ED5232200817602 /* _________VCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099DF1ED5232200817602 /* _________VCTests.m */; };
+		A74099EB1ED5232200817602 /* _________VCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099EA1ED5232200817602 /* _________VCUITests.m */; };
+		A74099FA1ED5269400817602 /* WXPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099F91ED5269400817602 /* WXPresentViewController.m */; };
+		A74099FD1ED526E500817602 /* WXPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099FC1ED526E500817602 /* WXPushViewController.m */; };
+		A7409A001ED52D6D00817602 /* WXThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74099FF1ED52D6D00817602 /* WXThreeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74099DC1ED5232200817602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74099BA1ED5231F00817602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74099C11ED5232000817602;
+			remoteInfo = "获取当前屏幕显示的VC";
+		};
+		A74099E71ED5232200817602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74099BA1ED5231F00817602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74099C11ED5232000817602;
+			remoteInfo = "获取当前屏幕显示的VC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A74099C21ED5232000817602 /* 获取当前屏幕显示的VC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "获取当前屏幕显示的VC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74099C61ED5232000817602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A74099C81ED5232000817602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A74099C91ED5232100817602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A74099CB1ED5232100817602 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A74099CC1ED5232100817602 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A74099CF1ED5232200817602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74099D11ED5232200817602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74099D41ED5232200817602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74099D61ED5232200817602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74099DB1ED5232200817602 /* 获取当前屏幕显示的VCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取当前屏幕显示的VCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74099DF1ED5232200817602 /* _________VCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________VCTests.m"; sourceTree = "<group>"; };
+		A74099E11ED5232200817602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74099E61ED5232200817602 /* 获取当前屏幕显示的VCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取当前屏幕显示的VCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74099EA1ED5232200817602 /* _________VCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________VCUITests.m"; sourceTree = "<group>"; };
+		A74099EC1ED5232200817602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74099F81ED5269400817602 /* WXPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPresentViewController.h; sourceTree = "<group>"; };
+		A74099F91ED5269400817602 /* WXPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXPresentViewController.m; sourceTree = "<group>"; };
+		A74099FB1ED526E500817602 /* WXPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPushViewController.h; sourceTree = "<group>"; };
+		A74099FC1ED526E500817602 /* WXPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXPushViewController.m; sourceTree = "<group>"; };
+		A74099FE1ED52D6D00817602 /* WXThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXThreeViewController.h; sourceTree = "<group>"; };
+		A74099FF1ED52D6D00817602 /* WXThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXThreeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74099BF1ED5232000817602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74099D81ED5232200817602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74099E31ED5232200817602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74099B91ED5231F00817602 = {
+			isa = PBXGroup;
+			children = (
+				A74099C41ED5232000817602 /* 获取当前屏幕显示的VC */,
+				A74099DE1ED5232200817602 /* 获取当前屏幕显示的VCTests */,
+				A74099E91ED5232200817602 /* 获取当前屏幕显示的VCUITests */,
+				A74099C31ED5232000817602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74099C31ED5232000817602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74099C21ED5232000817602 /* 获取当前屏幕显示的VC.app */,
+				A74099DB1ED5232200817602 /* 获取当前屏幕显示的VCTests.xctest */,
+				A74099E61ED5232200817602 /* 获取当前屏幕显示的VCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74099C41ED5232000817602 /* 获取当前屏幕显示的VC */ = {
+			isa = PBXGroup;
+			children = (
+				A74099C81ED5232000817602 /* AppDelegate.h */,
+				A74099C91ED5232100817602 /* AppDelegate.m */,
+				A74099CB1ED5232100817602 /* ViewController.h */,
+				A74099CC1ED5232100817602 /* ViewController.m */,
+				A74099F81ED5269400817602 /* WXPresentViewController.h */,
+				A74099F91ED5269400817602 /* WXPresentViewController.m */,
+				A74099FB1ED526E500817602 /* WXPushViewController.h */,
+				A74099FC1ED526E500817602 /* WXPushViewController.m */,
+				A74099FE1ED52D6D00817602 /* WXThreeViewController.h */,
+				A74099FF1ED52D6D00817602 /* WXThreeViewController.m */,
+				A74099CE1ED5232200817602 /* Main.storyboard */,
+				A74099D11ED5232200817602 /* Assets.xcassets */,
+				A74099D31ED5232200817602 /* LaunchScreen.storyboard */,
+				A74099D61ED5232200817602 /* Info.plist */,
+				A74099C51ED5232000817602 /* Supporting Files */,
+			);
+			path = "获取当前屏幕显示的VC";
+			sourceTree = "<group>";
+		};
+		A74099C51ED5232000817602 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74099C61ED5232000817602 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A74099DE1ED5232200817602 /* 获取当前屏幕显示的VCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74099DF1ED5232200817602 /* _________VCTests.m */,
+				A74099E11ED5232200817602 /* Info.plist */,
+			);
+			path = "获取当前屏幕显示的VCTests";
+			sourceTree = "<group>";
+		};
+		A74099E91ED5232200817602 /* 获取当前屏幕显示的VCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A74099EA1ED5232200817602 /* _________VCUITests.m */,
+				A74099EC1ED5232200817602 /* Info.plist */,
+			);
+			path = "获取当前屏幕显示的VCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74099C11ED5232000817602 /* 获取当前屏幕显示的VC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74099EF1ED5232200817602 /* Build configuration list for PBXNativeTarget "获取当前屏幕显示的VC" */;
+			buildPhases = (
+				A74099BE1ED5232000817602 /* Sources */,
+				A74099BF1ED5232000817602 /* Frameworks */,
+				A74099C01ED5232000817602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "获取当前屏幕显示的VC";
+			productName = "获取当前屏幕显示的VC";
+			productReference = A74099C21ED5232000817602 /* 获取当前屏幕显示的VC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A74099DA1ED5232200817602 /* 获取当前屏幕显示的VCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74099F21ED5232200817602 /* Build configuration list for PBXNativeTarget "获取当前屏幕显示的VCTests" */;
+			buildPhases = (
+				A74099D71ED5232200817602 /* Sources */,
+				A74099D81ED5232200817602 /* Frameworks */,
+				A74099D91ED5232200817602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74099DD1ED5232200817602 /* PBXTargetDependency */,
+			);
+			name = "获取当前屏幕显示的VCTests";
+			productName = "获取当前屏幕显示的VCTests";
+			productReference = A74099DB1ED5232200817602 /* 获取当前屏幕显示的VCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A74099E51ED5232200817602 /* 获取当前屏幕显示的VCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74099F51ED5232200817602 /* Build configuration list for PBXNativeTarget "获取当前屏幕显示的VCUITests" */;
+			buildPhases = (
+				A74099E21ED5232200817602 /* Sources */,
+				A74099E31ED5232200817602 /* Frameworks */,
+				A74099E41ED5232200817602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74099E81ED5232200817602 /* PBXTargetDependency */,
+			);
+			name = "获取当前屏幕显示的VCUITests";
+			productName = "获取当前屏幕显示的VCUITests";
+			productReference = A74099E61ED5232200817602 /* 获取当前屏幕显示的VCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74099BA1ED5231F00817602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈伟鑫";
+				TargetAttributes = {
+					A74099C11ED5232000817602 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3823CPSR4J;
+						ProvisioningStyle = Automatic;
+					};
+					A74099DA1ED5232200817602 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3823CPSR4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A74099C11ED5232000817602;
+					};
+					A74099E51ED5232200817602 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3823CPSR4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A74099C11ED5232000817602;
+					};
+				};
+			};
+			buildConfigurationList = A74099BD1ED5231F00817602 /* Build configuration list for PBXProject "获取当前屏幕显示的VC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74099B91ED5231F00817602;
+			productRefGroup = A74099C31ED5232000817602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74099C11ED5232000817602 /* 获取当前屏幕显示的VC */,
+				A74099DA1ED5232200817602 /* 获取当前屏幕显示的VCTests */,
+				A74099E51ED5232200817602 /* 获取当前屏幕显示的VCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74099C01ED5232000817602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74099D51ED5232200817602 /* LaunchScreen.storyboard in Resources */,
+				A74099D21ED5232200817602 /* Assets.xcassets in Resources */,
+				A74099D01ED5232200817602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74099D91ED5232200817602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74099E41ED5232200817602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74099BE1ED5232000817602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74099CD1ED5232100817602 /* ViewController.m in Sources */,
+				A74099FD1ED526E500817602 /* WXPushViewController.m in Sources */,
+				A74099CA1ED5232100817602 /* AppDelegate.m in Sources */,
+				A74099C71ED5232000817602 /* main.m in Sources */,
+				A7409A001ED52D6D00817602 /* WXThreeViewController.m in Sources */,
+				A74099FA1ED5269400817602 /* WXPresentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74099D71ED5232200817602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74099E01ED5232200817602 /* _________VCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74099E21ED5232200817602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74099EB1ED5232200817602 /* _________VCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74099DD1ED5232200817602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74099C11ED5232000817602 /* 获取当前屏幕显示的VC */;
+			targetProxy = A74099DC1ED5232200817602 /* PBXContainerItemProxy */;
+		};
+		A74099E81ED5232200817602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74099C11ED5232000817602 /* 获取当前屏幕显示的VC */;
+			targetProxy = A74099E71ED5232200817602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A74099CE1ED5232200817602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74099CF1ED5232200817602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74099D31ED5232200817602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74099D41ED5232200817602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74099ED1ED5232200817602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A74099EE1ED5232200817602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74099F01ED5232200817602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "获取当前屏幕显示的VC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---------VC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A74099F11ED5232200817602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "获取当前屏幕显示的VC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---------VC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A74099F31ED5232200817602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "获取当前屏幕显示的VCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---------VCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取当前屏幕显示的VC.app/获取当前屏幕显示的VC";
+			};
+			name = Debug;
+		};
+		A74099F41ED5232200817602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "获取当前屏幕显示的VCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---------VCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/获取当前屏幕显示的VC.app/获取当前屏幕显示的VC";
+			};
+			name = Release;
+		};
+		A74099F61ED5232200817602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "获取当前屏幕显示的VCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---------VCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取当前屏幕显示的VC";
+			};
+			name = Debug;
+		};
+		A74099F71ED5232200817602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "获取当前屏幕显示的VCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.---------VCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "获取当前屏幕显示的VC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74099BD1ED5231F00817602 /* Build configuration list for PBXProject "获取当前屏幕显示的VC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74099ED1ED5232200817602 /* Debug */,
+				A74099EE1ED5232200817602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74099EF1ED5232200817602 /* Build configuration list for PBXNativeTarget "获取当前屏幕显示的VC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74099F01ED5232200817602 /* Debug */,
+				A74099F11ED5232200817602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A74099F21ED5232200817602 /* Build configuration list for PBXNativeTarget "获取当前屏幕显示的VCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74099F31ED5232200817602 /* Debug */,
+				A74099F41ED5232200817602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A74099F51ED5232200817602 /* Build configuration list for PBXNativeTarget "获取当前屏幕显示的VCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74099F61ED5232200817602 /* Debug */,
+				A74099F71ED5232200817602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74099BA1ED5231F00817602 /* Project object */;
+}
